@@ -56,13 +56,31 @@ window.addEventListener("scroll", scrollTop)
 
 
 
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '50px',
-    duration: '3500',
-    reset: true
-});
+const sr= ScrollReveal({
+    origin:'top',
+    distance:'60px',
+    duration:2500,
+    delay:400,
+})
 
-sr.reveal('.home, .about, .products, .button2, .contact, .sub, .footer'),{
-    interval: 200
-}
+sr.reveal(`.home`)
+sr.reveal(`.about`, {delay:300})
+sr.reveal(`.products-container`, {delay: 400})
+sr.reveal(`.home__img`, {delay: 600})
+sr.reveal(`.btn`, {delay: 700, origin: 'bottom'})
+sr.reveal(`.contact`, {origin: 'left'})
+sr.reveal(`.sub`, {origin: 'bottom'})
+sr.reveal(`.footer`, {interval: 100})
+
+
+
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '30px',
+//     duration: '2000',
+//     reset: true
+// });
+
+// sr.reveal('.home, .about, .products, .button2, .contact, .sub, .footer'),{
+    
+// }
