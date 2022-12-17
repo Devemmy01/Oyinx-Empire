@@ -394,6 +394,7 @@ img{
     grid-template-columns: repeat(auto-fit, minmax(240px, auto));
     gap: 1.5rem;
     margin-top: 15rem;
+    height: auto;
 }
 .social{
     align-items: center;
@@ -410,8 +411,9 @@ img{
     color: #fff;
 }
 .footer-box{
-    display: grid;
-    line-height: 1.5rem;
+    /* display: grid; */
+    line-height: 2.5rem;
+
 }
 .copyright{
     padding: 20px;
@@ -503,21 +505,21 @@ img{
         width: 90vw;
     }
     .contact{
-        margin-top: 50rem;
+        /* margin-top: 50rem; */
     }
     .contact__container{
         display: grid;
         gap: 5rem;
         justify-content: center;
         width: 90vw;
-        margin-top: 10rem;
+        margin-top: 30rem;
     }
     .button2 {
         margin-top: 6rem;
         width: 50vw;
     }
     .sub{
-        margin-top: 25rem;
+        /* margin-top: 25rem; */
         width: 110%;
     }
     .copyright{
@@ -531,8 +533,9 @@ img{
         width: 100vw;
     }
     .sub{
-        margin-top: 28rem;
+        margin-top: 48rem;
         width: 100vw;
+        height: auto;
     }
     .copyright{
         margin-bottom: 5rem;
@@ -593,14 +596,14 @@ img{
         margin-top: 3rem;
     }
     .contact{
-        margin-top: 45rem;
+        /* margin-top: 45rem; */
         width: 130%;
     }
     .contact__container{
         display: grid;
         gap: 5rem;
         justify-content: center;
-        margin-top: 9rem;
+        /* margin-top: 9rem; */
         width: 95vw;
     }
     iframe{
@@ -700,6 +703,10 @@ img{
         
         
     } */
+    .contact__container{
+        padding-top: 30rem;
+        height: 100vh;
+    }
     .products-container{
        /* width: 90vw; */
        gap: 1.7rem;
@@ -708,6 +715,9 @@ img{
     }
     .products-container .box{
         width: 70vw;
+    }
+    .sub{
+        padding-top: 60rem;
     }
   
     
@@ -760,8 +770,9 @@ img{
         height: 400px;
     }
     .contact__container{
-        margin-top: 20%;
+        padding-top: 30%;
     }
+    
 }
 @media (max-width: 364px){
     .products-container {
@@ -860,7 +871,7 @@ img{
         margin-left: rem;
     }
     .sub{
-        margin-top: 10rem;
+        /* margin-top: 10rem; */
     }
     .sub form{
         background: transparent;
@@ -892,6 +903,9 @@ img{
     }
     .heading h2, .about-text h2{
         font-size: 18px;
+    }
+    .contact__container{
+        padding-top: -40%;
     }
    
 }
