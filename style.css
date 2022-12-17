@@ -607,7 +607,7 @@ img{
         height: 650px;
     }
     .sub{
-        margin-top: 28rem;
+        margin-top: 48rem;
         width: 100vw;
     }
     .copyright{
@@ -703,7 +703,7 @@ img{
     .products-container{
        /* width: 90vw; */
        gap: 1.7rem;
-       /* margin-left: -1%; */
+       margin-top: 5rem;
        padding: 0 3rem;
     }
     .products-container .box{
@@ -719,7 +719,7 @@ img{
     }
     .contact__container{
         width: 80vw;
-        margin-top: 20rem;
+        margin-top: 40rem;
     }
     iframe{
         width: 350px;
@@ -848,6 +848,7 @@ img{
         width: 90vw;
         gap: 1rem;
         margin: 0 -5%;
+        margin-top: 5rem;
     }   
     .products-container .box img{
         height: 130px;
@@ -857,6 +858,9 @@ img{
     }
     .copyright{
         margin-left: rem;
+    }
+    .sub{
+        margin-top: 10rem;
     }
     .sub form{
         background: transparent;
